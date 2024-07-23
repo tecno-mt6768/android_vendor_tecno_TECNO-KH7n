@@ -17,6 +17,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "ImsService",
+	owner: "tecno",
+	apk: "proprietary/priv-app/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "GoogleTetheringResOverlay",
 	owner: "tecno",
 	apk: "proprietary/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk",
@@ -76,6 +87,60 @@ dex_import {
 	owner: "tecno",
 	jars: ["proprietary/vendor/framework/com.nxp.ls.jar"],
 	soc_specific: true,
+}
+
+dex_import {
+	name: "mediatek-common",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-framework.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-base",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-ims-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-common",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-ims-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-telecom-common",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-telecom-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-base",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-telephony-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-common",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-wfo-legacy",
+	owner: "tecno",
+	jars: ["proprietary/framework/mediatek-wfo-legacy.jar"],
 }
 
 prebuilt_etc_xml {
