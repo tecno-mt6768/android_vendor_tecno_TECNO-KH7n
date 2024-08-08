@@ -63,10 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.8.so \
-    vendor/TECNO/KH7n/proprietary/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_dsds.xml \
-    vendor/TECNO/KH7n/proprietary/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_qsqs.xml \
-    vendor/TECNO/KH7n/proprietary/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ss.xml \
-    vendor/TECNO/KH7n/proprietary/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_tsts.xml \
     vendor/TECNO/KH7n/proprietary/system_ext/app/CalibrationTool2/lib/arm64/libcalibverifyW_T.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/app/CalibrationTool2/lib/arm64/libcalibverifyW_T.so \
     vendor/TECNO/KH7n/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/TECNO/KH7n/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
