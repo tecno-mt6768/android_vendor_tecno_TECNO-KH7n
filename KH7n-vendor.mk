@@ -65,21 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.8.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_stub.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/r_submix_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/usb_audio_policy_configuration.xml \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
