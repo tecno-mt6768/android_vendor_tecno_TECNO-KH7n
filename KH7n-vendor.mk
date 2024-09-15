@@ -531,8 +531,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     vendor/TECNO/KH7n/proprietary/vendor/etc/firmware_slm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware_slm.bin \
     vendor/TECNO/KH7n/proprietary/vendor/etc/fsfp_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/fsfp_config.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/fstab.mt6768:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6768 \
     vendor/TECNO/KH7n/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/TECNO/KH7n/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
@@ -879,7 +877,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/TECNO/KH7n/proprietary/vendor/etc/tranMagiqueSonMode.dat:$(TARGET_COPY_OUT_VENDOR)/etc/tranMagiqueSonMode.dat \
     vendor/TECNO/KH7n/proprietary/vendor/etc/tran_camprofiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tran_camprofiles.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/TECNO/KH7n/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
