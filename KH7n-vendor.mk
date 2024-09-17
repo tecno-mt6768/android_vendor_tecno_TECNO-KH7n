@@ -8,27 +8,25 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/TECNO/KH7n/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/TECNO/KH7n/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
-    vendor/TECNO/KH7n/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
-    vendor/TECNO/KH7n/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_socketwrapper.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsignal.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsink.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsource.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvsim-adaptor-client.so \
-    vendor/TECNO/KH7n/proprietary/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
+    vendor/TECNO/KH7n/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_socketwrapper.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_service.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_wrapper.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtkperf_client.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsignal.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsource.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_capenc.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvsim-adaptor-client.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvt_avsync.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/libArcFilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libArcFilter.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so \
-    vendor/TECNO/KH7n/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
-    vendor/TECNO/KH7n/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
     vendor/TECNO/KH7n/proprietary/lib/libdatasource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdatasource.so \
     vendor/TECNO/KH7n/proprietary/lib/libged_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libged_sys.so \
     vendor/TECNO/KH7n/proprietary/lib/libgralloc_extra_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgralloc_extra_sys.so \
@@ -65,21 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.8.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_configuration_stub.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_default_stream_volumes.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_product_strategies.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/r_submix_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/usb_audio_policy_configuration.xml \
 vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
@@ -690,7 +673,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_video.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/memfusion2/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/memfusion2/fstab.enableswap \
     vendor/TECNO/KH7n/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     vendor/TECNO/KH7n/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/TECNO/KH7n/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
@@ -1896,11 +1878,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
     vendor/TECNO/KH7n/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
-    vendor/TECNO/KH7n/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
-    vendor/TECNO/KH7n/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
-    vendor/TECNO/KH7n/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
-    vendor/TECNO/KH7n/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
-    vendor/TECNO/KH7n/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
     vendor/TECNO/KH7n/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
     vendor/TECNO/KH7n/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop \
     vendor/TECNO/KH7n/proprietary/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta \
