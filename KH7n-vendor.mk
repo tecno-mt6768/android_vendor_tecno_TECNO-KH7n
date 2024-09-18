@@ -1208,10 +1208,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/lib/s5kgd2sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kgd2sp_mipi_raw_tuning.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib/s5kjn1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/s5kjn1_mipi_raw_tuning.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/shared-file-region-aidl-cpp.so \
-    vendor/TECNO/KH7n/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
-    vendor/TECNO/KH7n/proprietary/vendor/lib/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdtsaudio.so \
-    vendor/TECNO/KH7n/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
-    vendor/TECNO/KH7n/proprietary/vendor/lib/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhapticgenerator.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
@@ -1788,10 +1784,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/lib64/s5kjn1_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kjn1_mipi_raw_IdxMgr.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib64/s5kjn1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kjn1_mipi_raw_tuning.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib64/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/shared-file-region-aidl-cpp.so \
-    vendor/TECNO/KH7n/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
-    vendor/TECNO/KH7n/proprietary/vendor/lib64/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdtsaudio.so \
-    vendor/TECNO/KH7n/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
-    vendor/TECNO/KH7n/proprietary/vendor/lib64/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhapticgenerator.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib64/vendor.fptool.fingerprint@2.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fptool.fingerprint@2.0-adapter-helper.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib64/vendor.fptool.fingerprint@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fptool.fingerprint@2.0.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib64/vendor.mediatek.hardware.aee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.aee@1.0.so \
