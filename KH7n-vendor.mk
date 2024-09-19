@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.5.so \
     vendor/TECNO/KH7n/proprietary/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.8.so \
-vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
+    vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
@@ -359,8 +359,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ac8MobileLegensModelLabel.txt:$(TARGET_COPY_OUT_VENDOR)/etc/ac8MobileLegensModelLabel.txt \
     vendor/TECNO/KH7n/proprietary/vendor/etc/aee-commit:$(TARGET_COPY_OUT_VENDOR)/etc/aee-commit \
     vendor/TECNO/KH7n/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
@@ -375,9 +373,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2213:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2213 \
     vendor/TECNO/KH7n/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2213_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2213_ENUM \
     vendor/TECNO/KH7n/proprietary/vendor/etc/arc.ini:$(TARGET_COPY_OUT_VENDOR)/etc/arc.ini \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
@@ -490,17 +485,7 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/preset_default.bin:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/preset_default.bin \
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/preset_music.bin:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/preset_music.bin \
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/preset_ringtone.bin:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/preset_ringtone.bin \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/aurisys_config_fs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_fs.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/bluetooth_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_offload_audio_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     vendor/TECNO/KH7n/proprietary/vendor/etc/cloudengine/ReadMe.txt:$(TARGET_COPY_OUT_VENDOR)/etc/cloudengine/ReadMe.txt \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -661,21 +646,8 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/libnfc-slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-slm.conf \
     vendor/TECNO/KH7n/proprietary/vendor/etc/logExportConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/logExportConfig.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs_mediatek_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_audio.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_video.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/TECNO/KH7n/proprietary/vendor/etc/performance/blacklist.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/blacklist.json \
     vendor/TECNO/KH7n/proprietary/vendor/etc/performance/keep_alive_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/keep_alive_config.json \
@@ -696,17 +668,7 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/performance/whitelist_6g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/whitelist_6g_ram.json \
     vendor/TECNO/KH7n/proprietary/vendor/etc/performance/whitelist_8g_ram.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/whitelist_8g_ram.json \
     vendor/TECNO/KH7n/proprietary/vendor/etc/pnpmgr.db:$(TARGET_COPY_OUT_VENDOR)/etc/pnpmgr.db \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/resolution_tuner_app_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/resolution_tuner_app_list.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
     vendor/TECNO/KH7n/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
     vendor/TECNO/KH7n/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
     vendor/TECNO/KH7n/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
@@ -851,25 +813,18 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
     vendor/TECNO/KH7n/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     vendor/TECNO/KH7n/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/TECNO/KH7n/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/TECNO/KH7n/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/TECNO/KH7n/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/TECNO/KH7n/proprietary/vendor/etc/tranMagiqueSonMode.dat:$(TARGET_COPY_OUT_VENDOR)/etc/tranMagiqueSonMode.dat \
     vendor/TECNO/KH7n/proprietary/vendor/etc/tran_camprofiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tran_camprofiles.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/TECNO/KH7n/proprietary/vendor/etc/x695FreeFiredModelLabel.txt:$(TARGET_COPY_OUT_VENDOR)/etc/x695FreeFiredModelLabel.txt \
     vendor/TECNO/KH7n/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/TECNO/KH7n/proprietary/vendor/firmware/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/Conf_MultipleTest.ini \
@@ -1869,9 +1824,6 @@ vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.bluetooth.
     vendor/TECNO/KH7n/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/TECNO/KH7n/proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
-    vendor/TECNO/KH7n/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
-    vendor/TECNO/KH7n/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
-    vendor/TECNO/KH7n/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop \
     vendor/TECNO/KH7n/proprietary/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta \
     vendor/TECNO/KH7n/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/TECNO/KH7n/proprietary/vendor/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/df1edda8627911e980ae507b9d9a7e7d.ta
