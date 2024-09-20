@@ -485,7 +485,6 @@ PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/preset_default.bin:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/preset_default.bin \
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/preset_music.bin:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/preset_music.bin \
     vendor/TECNO/KH7n/proprietary/vendor/etc/audio_param/preset_ringtone.bin:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/preset_ringtone.bin \
-    vendor/TECNO/KH7n/proprietary/vendor/etc/cloudengine/ReadMe.txt:$(TARGET_COPY_OUT_VENDOR)/etc/cloudengine/ReadMe.txt \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/TECNO/KH7n/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
