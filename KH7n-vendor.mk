@@ -1842,6 +1842,16 @@ PRODUCT_PACKAGES += \
     NetworkStackInProcessResOverlay \
     NetworkStackResOverlay \
     TetheringResOverlay \
+    ImsService \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-ims-legacy \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
     com.nxp.ls \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.boot@1.2 \
