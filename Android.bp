@@ -125,7 +125,7 @@ dex_import {
 }
 
 dex_import {
-	name: "mediatek-ims-legacy,
+	name: "mediatek-ims-legacy",
 	owner: "tecno",
 	jars: ["proprietary/framework/mediatek-ims-legacy.jar"],
 }
