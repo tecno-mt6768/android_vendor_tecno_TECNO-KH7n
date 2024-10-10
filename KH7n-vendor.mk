@@ -1864,14 +1864,12 @@ PRODUCT_PACKAGES += \
     gnss-default \
     gnss@2.1-service \
     lbs_hidl_service@1.0 \
-    lights-mtk-default \
     manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_hwcomposer \
     manifest_media_c2_V1_2_default \
     manifest_storage \
     manifest_tneengine \
-    power-default \
     vendor.mediatek.hardware.paytrigger@1.0-service \
     vendor.mediatek.hardware.tranHwInfo@1.0 \
     vendor.transsion.hardware.trancam.trancamserver@1.0 \
