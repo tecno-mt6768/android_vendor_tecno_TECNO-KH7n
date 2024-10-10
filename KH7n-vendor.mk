@@ -1872,5 +1872,4 @@ PRODUCT_PACKAGES += \
     manifest_tneengine \
     vendor.mediatek.hardware.paytrigger@1.0-service \
     vendor.mediatek.hardware.tranHwInfo@1.0 \
-    vendor.transsion.hardware.trancam.trancamserver@1.0 \
-    vibrator-mtk-default
+    vendor.transsion.hardware.trancam.trancamserver@1.0
