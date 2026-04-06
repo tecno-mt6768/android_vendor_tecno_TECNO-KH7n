@@ -8,21 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/TECNO/KH7n/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
-    vendor/TECNO/KH7n/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
-    vendor/TECNO/KH7n/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_socketwrapper.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_service.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_wrapper.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtkperf_client.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsignal.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsource.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_capenc.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvsim-adaptor-client.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvt_avsync.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/libArcFilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libArcFilter.so \
@@ -78,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.pq@2.6.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.pq@2.7.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.pq@2.9.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/libarcsoft_chart_free_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_chart_free_calibration.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/libarcsoft_dualcam_wt_calibration.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_dualcam_wt_calibration.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/libarcsoft_dualcam_wt_verification.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarcsoft_dualcam_wt_verification.so \
@@ -100,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.6.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.7.so \
     vendor/TECNO/KH7n/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.9.so \
-    vendor/TECNO/KH7n/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/TECNO/KH7n/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020b0000000000000000000000000000.drbin \
     vendor/TECNO/KH7n/proprietary/vendor/app/mcRegistry/020b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020b0000000000000000000000000000.tlbin \
     vendor/TECNO/KH7n/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
@@ -1842,16 +1825,6 @@ PRODUCT_PACKAGES += \
     NetworkStackInProcessResOverlay \
     NetworkStackResOverlay \
     TetheringResOverlay \
-    ImsService \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-ims-extension-plugin \
-    mediatek-ims-legacy \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     com.nxp.ls \
     android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.boot@1.2 \
